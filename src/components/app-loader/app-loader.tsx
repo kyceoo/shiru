@@ -49,7 +49,7 @@ const AppLoader: React.FC<AppLoaderProps> = ({ onLoadingComplete, duration = 600
   const createDollar = () => {
     if (!bgElementsRef.current) return;
 
-    const dollarSigns = ['💰', '💵', '💲', '🪙', '💴', '💶', '💷', '💸', '🤑', '💎'];
+    const dollarSigns = ['', '', '', '', '', '', '', '', '', ''];
     const dollar = document.createElement('div');
     dollar.className = 'dollar';
     dollar.textContent = dollarSigns[Math.floor(Math.random() * dollarSigns.length)];
@@ -158,12 +158,12 @@ const AppLoader: React.FC<AppLoaderProps> = ({ onLoadingComplete, duration = 600
         onMouseLeave={handleMouseLeave}
       >
         <div className="logo">
-          <div className="logo-main">PRO</div>
+          <div className="logo-main">PRODBOT</div>
           <div className="logo-sub">TRADINGHUB</div>
         </div>
         
         <div className="welcome-message">
-          <div className="welcome-title">Welcome to deriv third party powered website</div>
+          <div className="welcome-title">Welcome to PROFIT DBOT</div>
           <div className="welcome-text">Gain access to premium trading features unavailable on the official platform</div>
         </div>
         

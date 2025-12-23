@@ -7,9 +7,9 @@ export const APP_IDS = {
     STAGING: 29934,
     STAGING_BE: 29934,
     STAGING_ME: 29934,
-    PRODUCTION: 117748,
-    PRODUCTION_BE: 117748,
-    PRODUCTION_ME: 117748,
+    PRODUCTION: 117656,
+    PRODUCTION_BE: 117656,
+    PRODUCTION_ME: 117656,
 };
 
 export const livechat_license_id = 12049137;

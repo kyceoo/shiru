@@ -82,8 +82,8 @@
 
 /* Blue tinted stars */
 .star:nth-child(5n) {
-  background-color: #3B82F6;
-  box-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
+  background-color: #3b3d41;
+  box-shadow: 0 0 10px rgba(59, 193, 246, 0.8);
 }
 
 @keyframes twinkle {
@@ -152,11 +152,11 @@
 .logo-main {
   font-size: 3rem;
   font-weight: 800;
-  color: #3B82F6;
+  color: #4cdadf;
   letter-spacing: 1px;
   margin-bottom: 0.25rem;
   text-transform: uppercase;
-  background: linear-gradient(to right, #3B82F6, #93C5FD);
+  background: linear-gradient(to right, #3bf64b, #93C5FD);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
